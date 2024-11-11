@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Inglés</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="icon" href="imagenes/logoD.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <header class="header">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="imagenes/logoD.png" alt="Logo">
+        </div>
+        
+        <!-- Navegación -->
+        <nav class="nav">
+            <a href="#inicio">Descripción</a>
+            <a href="#ventajas">Ventajas y Beneficios</a>
+            <a href="#ubicacion">Encuentranos</a>
+            <a href="#informacion">Inscripción</a>
+        </nav>
+    </header>
+
+    <!-- Sección 1 - Descripción del curso -->
+    <section class="seccion1" id="inicio">
+        <div class="imagen1">
+            <img src="imagenes/joven.avif" alt="Chica">
+        </div>
+        <div class="descripcion1">
+            <h2 class="title2">Descripción del curso</h2>
+            <p>El curso de Inglés General está diseñado para estudiantes de todos los niveles, 
+                desde principiantes hasta avanzados, que buscan mejorar su competencia en el idioma
+                 inglés en un entorno interactivo y efectivo. Este curso cubre los aspectos fundamentales del idioma, incluyendo gramática, vocabulario, comprensión auditiva, expresión oral, lectura y escritura. Se enfoca en habilidades prácticas y cotidianas para que los estudiantes puedan comunicarse con confianza en contextos personales, académicos y laborales.</p>
+        </div>
+    </section>
+
+    <!-- Sección 2 - Ventajas y beneficios -->
+    <section class="seccion-ventajas" id="ventajas">
+        <div class="contenido-ventajas">
+            <h2>Ventajas y Beneficios</h2>
+            <p>Aprender inglés en nuestro instituto te abre puertas en lo personal y profesional. Ofrecemos clases dinámicas, personalizadas y con horarios flexibles. Con profesores calificados y herramientas modernas, alcanzarás un dominio del inglés que te permitirá destacarte y conectar con personas de todo el mundo.</p>
+        </div>
+        <div class="imagen-ventajas">
+            <img src="imagenes/ventajas.jpg" alt="Ventajas">
+        </div>
+    </section>
+
+    <!-- Sección 3 - Ubicación -->
+    <section class="location" id="ubicacion">
+        <div class="map-container">
+            <h2>Encuéntranos aquí</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7908961834783!2d-78.49315912635882!3d-0.21243593539242644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a107e1cd44b%3A0x88a284f66939ed4!2sESCUELA%20POLIT%C3%89CNICA%20NACIONAL!5e0!3m2!1ses!2sec!4v1731363594495!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <iframe class="video1" width="453" height="400" src="https://www.youtube.com/embed/tgKVIFYbWgw" title="Cursos GRATIS para APRENDER INGLÉS"></iframe>
+        </div>
+    </section>
+
+    <!-- Sección 4 - Información -->
+    <section class="infoseccion" id="informacion">
+        <h2 class="titulo-info">Información</h2>
+        <table class="tabla">
+            <tr>
+                <th>Idioma</th>
+                <th>Precio</th>
+                <th>Inicio de Clases</th>
+                <th>Duración del curso</th>
+                <th>Nivel</th>
+            </tr>
+            <tr>
+                <td>Inglés</td>
+                <td>$200</td>
+                <td>15 de enero</td>
+                <td>3 meses</td>
+                <td>Básico a Avanzado</td>
+            </tr>
+            <tr>
+                <td>Francés</td>
+                <td>$220</td>
+                <td>20 de febrero</td>
+                <td>4 meses</td>
+                <td>Básico a Intermedio</td>
+            </tr>
+            <tr>
+                <td>Alemán</td>
+                <td>$250</td>
+                <td>10 de marzo</td>
+                <td>4 meses</td>
+                <td>Básico a Intermedio</td>
+            </tr>
+            <tr>
+                <td>Japonés</td>
+                <td>$300</td>
+                <td>5 de abril</td>
+                <td>5 meses</td>
+                <td>Básico a Intermedio</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <h3 class="titulo_formulario">Inscríbete Aquí</h3>
+        
+        <form class="formulario">
+            <input class="formulario_input" type="email" required placeholder="Correo electrónico">
+            
+            <select id="idioma" required>
+                <option value="" disabled selected>Seleccione un idioma</option>
+                <option value="ingles">Inglés</option>
+                <option value="frances">Francés</option>
+                <option value="aleman">Alemán</option>
+                <option value="japones">Japonés</option>
+            </select>
+            <a href="privacidad.html" target="_blank">Ver Políticas de Privacidad</a>
+            <a href="terminos.html" target="_blank">Ver Términos y Condiciones</a>
+            <div class="checkbox">
+                <label for="politicasdeprivacidad"> He leído y acepto las Políticas de Privacidad </label>
+                <input id="politicas" type="checkbox" required>
+            </div>
+            <div class="checkbox2">
+                <label for="terminosycondiciones"> He leído y acepto los Términos y Condiciones</label>
+                <input class="terminos" type="checkbox" required>
+            </div>
+            <input class="enviar" type="submit" value="Enviar">
+        </form>
+        <div class="redes_sociales">
+            <a href="https://wa.me/593979240408" target="_blank"><img class="WhatsApp" src="imagenes/WhatsApp.png" alt="WhatsApp"></a>
+            <a href="https://www.instagram.com/cec_epn/" target="_blank"><img class="Instagram" src="imagenes/Instagram-Logo.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/CEC.EPN.EC" target="_blank"><img class="Facebook" src="imagenes/facebock logo.png" alt="Facebook"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
+
